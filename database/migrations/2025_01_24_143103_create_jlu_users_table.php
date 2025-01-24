@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('jlu_users', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('enorll_no')->unique();
+            $table->string('password');
             $table->timestamps();
         });
     }
