@@ -2233,7 +2233,15 @@
                                             <li id="e-n-menu-title-8273" class="e-n-menu-title"
                                                 style="--n-menu-title-order: 3;">
                                                 <div class="e-n-menu-title-container">
-                                                    <a class="e-n-menu-title-text e-link e-focus" href="{{url('/login')}}"> Login
+                                                    <a class="e-n-menu-title-text e-link e-focus"
+                                                        href="{{ url('/login') }}"
+                                                        style="{{ Session::has('user') ? 'display: none;' : '' }}">
+                                                        Login
+                                                    </a>
+                                                    <a class="e-n-menu-title-text e-link e-focus"
+                                                        href="{{ url('/logout') }}"
+                                                        style="{{ Session::has('user') ? '' : 'display: none;' }}">
+                                                        Logout
                                                     </a>
                                                 </div>
                                             </li>

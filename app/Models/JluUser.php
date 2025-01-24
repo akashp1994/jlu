@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class JluUser extends Model
 {
-    //
+    protected $fillable = ['name', 'email', 'enorll_no', 'password'];
 }

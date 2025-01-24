@@ -6,7 +6,7 @@
         <div class="login-container">
             <div class="circle circle-one"></div>
             <div class="form-container">
-                <h1 class="opacity">LOGIN</h1>
+                <h1 class="opacity">REGISTER</h1>
                 @if($errors->any())
                     <div class="error-message">
                         <ul>
@@ -19,16 +19,20 @@
                 @if(session('success'))
                     <div class="success-message">{{ session('success') }}</div>
                 @endif
-                <form method="POST" action="{{ route('authenticate') }}">
+                <form method="POST" action="{{ route('register.store') }}">
                     @csrf
-                    <input type="text" name="email_or_enroll_no" placeholder="Email/Enroll No"
-                        value="{{ old('email_or_enroll_no') }}" />
-                    <input type="password" name="password" placeholder="Password" />
-                    <button class="opacity" type="submit">LOGIN</button>
+                    <input type="text" name="name" placeholder="Full Name" value="{{ old('name') }}"
+                        required />
+                    <input type="email" name="email" placeholder="Email" value="{{ old('email') }}"
+                        required />
+                    <input type="text" name="enroll_no" placeholder="Enroll No"
+                        value="{{ old('enroll_no') }}" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="password" name="password_confirmation" placeholder="Confirm Password" required />
+                    <button class="opacity" type="submit">REGISTER</button>
                 </form>
                 <div class="register-forget opacity">
-                    <a href="{{ route('register') }}">Register</a>
-                    <a href="">Forgot Password</a>
+                    <a href="{{ route('login') }}">Already have an account? Login</a>
                 </div>
             </div>
             <div class="circle circle-two"></div>
