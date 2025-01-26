@@ -1,3 +1,4 @@
+<title>Jagran Lakecity University</title>
 <link rel="stylesheet" href="login-css/style.css">
 
 <body>

@@ -24,6 +24,11 @@ class HomeController extends Controller
         return view('register');
     }
 
+    public function feepage()
+    {
+        return view('fee');
+    }
+
     public function store(Request $request)
     {
         $request->validate([

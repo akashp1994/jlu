@@ -2231,6 +2231,17 @@
                                                 </div>
                                             </li>
                                             <li id="e-n-menu-title-8273" class="e-n-menu-title"
+                                                style="--n-menu-title-order: 3;
+                                                {{ Session::has('user') ? '' : 'display: none;' }}">
+                                                <div class="e-n-menu-title-container">
+                                                    <a class="e-n-menu-title-text e-link e-focus"
+                                                        href="{{ route('fee') }}"
+                                                        style="">
+                                                        Pay Fee
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li id="e-n-menu-title-8273" class="e-n-menu-title"
                                                 style="--n-menu-title-order: 3;">
                                                 <div class="e-n-menu-title-container">
                                                     <a class="e-n-menu-title-text e-link e-focus"

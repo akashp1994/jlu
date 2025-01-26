@@ -1,7 +1,8 @@
+<title>Jagran Lakecity University</title>
 <link rel="stylesheet" href="login-css/style.css">
 
 <body>
-    <img class="logo" src="wp-content/uploads/2023/08/jlu-logo-70.png" alt="">
+    <a href="{{url('/')}}"><img class="logo" src="wp-content/uploads/2023/08/jlu-logo-70.png" alt=""></a>
     <section class="container">
         <div class="login-container">
             <div class="circle circle-one"></div>
