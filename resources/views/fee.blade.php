@@ -366,15 +366,27 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     document.getElementById('payNowButton').addEventListener('click', function () {
-        $('#staticBackdrop').modal('hide');
+        Swal.fire({
+            title: 'Processing Payment',
+            text: 'Please wait...',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
 
         setTimeout(() => {
-            Swal.fire({
-                title: 'Payment Successful!',
-                text: 'Fees of Rs. 77,500 has been paid successfully.',
-                icon: 'success',
-                confirmButtonText: 'OK'
-            });
-        }, 300); 
+            Swal.close();
+
+            $('#staticBackdrop').modal('hide');
+            setTimeout(() => {
+                Swal.fire({
+                    title: 'Payment Successful!',
+                    text: 'Fees of Rs. 77,500 has been paid successfully.',
+                    icon: 'success',
+                    confirmButtonText: 'OK'
+                });
+            }, 300);
+        }, 2000); 
     });
 </script>
