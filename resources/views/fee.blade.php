@@ -8,7 +8,7 @@
 <div class="container emp-profile">
     <form method="post">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="profile-img">
                     <img src="/arya.jpg"
                         alt="" />
@@ -18,7 +18,7 @@
                     </div> -->
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="profile-head">
                     <div class="profile-head-top">
                     <h5>
