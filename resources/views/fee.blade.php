@@ -10,8 +10,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="profile-img">
-                    <img src="/arya.jpg"
-                        alt="" />
+                    <img src="/arya.jpg" alt="" />
                     <!-- <div class="file btn btn-lg btn-primary">
                         Change Photo
                         <input type="file" name="file" />
@@ -21,10 +20,10 @@
             <div class="col-md-7">
                 <div class="profile-head">
                     <div class="profile-head-top">
-                    <h5>
-                        Arya Khare
-                    </h5>
-                    <a href="{{route('logout')}}" class="btn btn-danger">Logout</a>
+                        <h5>
+                            Arya Khare
+                        </h5>
+                        <a href="{{ route('logout') }}" class="btn btn-danger">Logout</a>
                     </div>
                     <!-- <h6>
                         Web Developer and Designer
@@ -82,9 +81,64 @@
                         <div class="fee-structure mt-5">
                             <div class="row m-0">
                                 <div class="col-md-12 p-0">
-                                <div class="fee-heading">
-                                    <h6>Fees</h6>
+                                    <div class="fee-heading">
+                                        <h6>Fees</h6>
+                                    </div>
                                 </div>
+                                <div class="col-md-2 p-0">
+                                    <div class="fee-details">
+
+                                        <p>1 Year</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 p-0">
+                                    <div class="row m-0">
+                                        <div class="col-md-6 p-0">
+                                            <div class="fee-details">
+                                                <p class="">Semester-1</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-0">
+                                            <div class="fee-details">
+
+                                                <p>Rs 92,000 /-</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-0">
+                                            <div class="fee-details">
+
+                                                <p class="">Semester-2</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-0">
+                                            <div class="fee-details">
+
+                                                <p>Rs 92,000 /-</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 p-0">
+                                    <div class="fee-details">
+
+                                        <p>Total Fees<br>1,85,000</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 p-0">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="fee-details">
+
+                                                <p>Paid</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="fee-details">
+
+                                                <p>Paid</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-md-2 p-0">
                                     <div class="fee-details">
@@ -130,13 +184,13 @@
                                         <div class="col-md-12">
                                             <div class="fee-details">
 
-                                                <p>Remaining</p>
+                                                <p>To Be Paid</p>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="fee-details">
 
-                                                <p>Remaining</p>
+                                                <p>To Be Paid</p>
                                             </div>
                                         </div>
                                     </div>
@@ -148,7 +202,8 @@
             </div>
         </div>
     </form>
-    <button type="button" class="btn btn-success launch fee-button" data-toggle="modal" data-target="#staticBackdrop">Pay Fee Now</button>
+    <button type="button" class="btn btn-success launch fee-button" data-toggle="modal"
+        data-target="#staticBackdrop">Pay Fee Now</button>
 </div>
 
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
@@ -208,21 +263,6 @@
                     </div>
 
                 </div>
-
-                <!-- <div class="mt-3">
-
-
-                    <label class="radio"> <input type="radio" name="week" value="1" checked> <span>1st Week</span>
-                    </label>
-
-                    <label class="radio"> <input type="radio" name="week" value="2"> <span>2nd Week</span> </label>
-
-                    <label class="radio"> <input type="radio" name="week" value="3"> <span>3rd Week</span> </label>
-
-
-                    <label class="radio"> <input type="radio" name="week" value="4"> <span>4th Week</span> </label>
-
-                </div> -->
 
 
                 <div class="mt-3 text-center fee align-items-center">
@@ -330,7 +370,7 @@
                             </div>
 
                         </div>
-                        <a href="">Sent otp</a>
+                        <a href="">Send otp</a>
 
                         <div class="col-md-4 offset-md-4 mt-3">
 
@@ -387,6 +427,7 @@
                     confirmButtonText: 'OK'
                 });
             }, 300);
-        }, 2000); 
+        }, 2000);
     });
+
 </script>
