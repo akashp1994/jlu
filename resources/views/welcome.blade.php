@@ -8125,6 +8125,9 @@
                 html: `
                         <p>The portal for fee submission will be open on <strong>27th January</strong>.</p>
                         <p>Please ensure to complete your payments before the deadline to avoid any late fees or disruptions in your services.</p>
+                        <p>We're currently experiencing some issues with transactions. Please try again later for fee
+                            payments and transactions. We apologize for the inconvenience and appreciate your patience.
+                        </p>
                         <p>Thank you!</p>
                     `,
                 confirmButtonText: 'Got it!'
