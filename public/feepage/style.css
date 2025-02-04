@@ -2,9 +2,9 @@
 
 
 body {
-    font-family: Arial,
-    sans-serif;
+    font-family: Arial,sans-serif;
     margin: 20px;
+    background-image: url(../wp-content/uploads/2023/10/slider-1-29.jpg);
 }
 
 .logo {
@@ -16,7 +16,7 @@ body {
 
 .emp-profile {
     padding: 3%;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-bottom: 3%;
     border-radius: 0.5rem;
     background: #fff;
@@ -345,4 +345,46 @@ label.radio1 input:checked+span {
 .bigbox{
     box-shadow: 0px 0px 6px 5px #ddd;
     background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.side-bar{
+    border: 1px solid #eee;
+    background-color: #4ab2c6;
+    border-radius: 10px;
+}
+
+.side-bar .side-heading{
+    border-bottom: 2px solid #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.side-bar .side-heading h6{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.fee-heading{
+    font-weight: 700;
+}
+
+.logout{
+    text-decoration: none;
+}
+
+.modal-box{
+    margin-top: 20px;
+} 
+
+.modal-heading{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
 }
