@@ -68,7 +68,7 @@
                                             <p>2024</p>
                                         </div>
                                         <div class="innerbox">
-                                            <p class="text-center ">FEE Payable</p>
+                                            <p class="text-center fee-heading" style="font-weight=700;">FEE Payable</p>
                                         </div>
                                         <div class="innerbox">
                                             <p class="heading">Semester Fees</p>
@@ -85,10 +85,10 @@
                                         <div class="innerbox">
                                             <p class="heading">Payment Mode</p>
                                             <div class="selection">
-                                                <input type="radio" name="" id="payment">
+                                                <input type="radio" name="paymode" id="payment">
                                                 <label for="payment">Online Payment (Netbanking, Credit Card/Debit
                                                     Card)</label><br>
-                                                <input type="radio" name="" id="payment">
+                                                <input type="radio" name="paymode" id="payment">
                                                 <label for="payment">UPI</label>
                                             </div>
                                         </div>
@@ -262,5 +262,3 @@
         });
     });
 </script>
-
-
