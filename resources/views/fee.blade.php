@@ -259,7 +259,7 @@
                 </div>
                 <hr class="mr-2 mt-4">
                 <div class="mt-3 mr-2 d-flex justify-content-end align-items-center">
-                    <button class="ml-2 btn btn-primary pay" id="payNowButton">PAY NOW</button>
+                    <button class="ml-2 btn btn-primary pay" id="payNowButton" disabled>PAY NOW</button>
                 </div>
             </div>
         </div>
