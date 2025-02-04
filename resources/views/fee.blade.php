@@ -6,204 +6,107 @@
 <a href="{{ url('/') }}"><img class="logo" src="wp-content/uploads/2023/08/jlu-logo-70.png"
         alt=""></a>
 <div class="container emp-profile">
-    <form method="post">
+    <div class="bigbox">
         <div class="row">
-            <div class="col-md-3">
-                <div class="profile-img">
-                    <img src="/arya.jpg" alt="" />
-                    <!-- <div class="file btn btn-lg btn-primary">
-                        Change Photo
-                        <input type="file" name="file" />
-                    </div> -->
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="profile-head">
-                    <div class="profile-head-top">
-                        <h5>
-                            Arya Khare
-                        </h5>
-                        <a href="{{ route('logout') }}" class="btn btn-danger">Logout</a>
+            <div class="col-md-8 offset-md-2 mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="profile-img">
+                            <img src="/arya.jpg" alt="" />
+                        </div>
                     </div>
-                    <!-- <h6>
-                        Web Developer and Designer
-                    </h6> -->
-                    <!-- <p class="proile-rating">RANKINGS : <span>8/10</span></p> -->
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true">Details</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="tab-content profile-tab" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Student Name</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Arya Khare</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Enrollment no.</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>0146mba171020</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Course</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>MBA</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Year</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>2nd Year</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label>Session</label>
-                            </div>
-                            <div class="col-md-6">
-                                <p>2022 - 2024</p>
-                            </div>
-                        </div>
-                        <div class="fee-structure mt-5">
-                            <div class="row m-0">
-                                <div class="col-md-12 p-0">
-                                    <div class="fee-heading">
-                                        <h6>Fees</h6>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 p-0">
-                                    <div class="fee-details">
-
-                                        <p>1 Year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-5 p-0">
-                                    <div class="row m-0">
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-                                                <p class="">Semester-1</p>
+                    <div class="col-md-9">
+                        <div class="profile-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="outbox">
+                                        <div class="innerbox">
+                                            <p class="heading">Student Id</p>
+                                            <p>0146mba171020</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Name</p>
+                                            <p>Arya Khare</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Admission Year</p>
+                                            <p>2022</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Admission No.</p>
+                                            <p>202240700369
+</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">E-mail</p>
+                                            <p>kharearya58@gmail.com</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Course</p>
+                                            <p>MBA</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">College Name</p>
+                                            <p>⁠Jagran Lakecity University
+</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Course Type</p>
+                                            <p>Post Graduate</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Father Name</p>
+                                            <p>Mukesh Khare</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Mother Name</p>
+                                            <p>⁠Abhilasha Khare
+</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Academic Year</p>
+                                            <p>2024</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="text-center ">FEE Payable</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Semester Fees</p>
+                                            <p class="">77,500</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Late Fees</p>
+                                            <p class="">0</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Total Fees</p>
+                                            <p class="">77,500</p>
+                                        </div>
+                                        <div class="innerbox">
+                                            <p class="heading">Payment Mode</p>
+                                            <div class="selection">
+                                                <input type="radio" name="" id="payment">
+                                                <label for="payment">Online Payment (Netbanking, Credit Card/Debit
+                                                    Card)</label><br>
+                                                <input type="radio" name="" id="payment">
+                                                <label for="payment">UPI</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p>Rs 92,000 /-</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p class="">Semester-2</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p>Rs 92,000 /-</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 p-0">
-                                    <div class="fee-details">
-
-                                        <p>Total Fees<br>1,85,000</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 p-0">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="fee-details">
-
-                                                <p>Paid</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="fee-details">
-
-                                                <p>Paid</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 p-0">
-                                    <div class="fee-details">
-
-                                        <p>2 Year</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-5 p-0">
-                                    <div class="row m-0">
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-                                                <p class="">Semester-3</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p>Rs 77,500 /-</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p class="">Semester-4</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 p-0">
-                                            <div class="fee-details">
-
-                                                <p>Rs 77,500 /-</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 p-0">
-                                    <div class="fee-details">
-
-                                        <p>Total Fees<br>1,55,000</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 p-0">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="fee-details">
-
-                                                <p>To Be Paid</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="fee-details">
-
-                                                <p>To Be Paid</p>
-                                            </div>
+                                        <div class="innerbox fee-pay-btn">
+                                            <button type="button" class="pay-button" data-toggle="modal"
+                                                data-target="#staticBackdrop">Proceed for Fee
+                                                Payment -></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <a href="{{ route('logout') }}" class="btn btn-danger mt-2">Logout</a>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
-    <button type="button" class="btn btn-success launch fee-button" data-toggle="modal"
-        data-target="#staticBackdrop">Pay Fee Now</button>
+    </div>
 </div>
 
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
@@ -241,16 +144,11 @@
 
                     <small>Class</small>
                     <span class="font-weight-bolder">MBA</span>
-
                 </div>
-
                 <div class="mt-3">
-
                     <small>Payment Plan</small>
                     <div class="row mt-1">
-
                         <div class="col-md-6">
-
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="flexRadioDefault"
                                     id="flexRadioDefault1" checked>
@@ -259,147 +157,69 @@
                                 </label>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
-
                 <div class="mt-3 text-center fee align-items-center">
-
                     <h3 class="mb-0 font-weight-light">Rs. 77,500</h3>
-
                 </div>
-
-
-                <div class="mt-3">
-
-                    <small>Payment Method</small>
-
-                    <div class="d-flex flex-row">
-
-                        <!-- <label class="radio1"> <input type="radio" name="payment" value="bank"> <span><i
-                                    class="fa fa-bank"></i> BANK TRANSFER</span> </label> -->
-
-
-                        <label class="radio1"> <input type="radio" name="payment" value="card"> <span><i
-                                    class="fa fa-credit-card-alt"></i>CARD</span> </label>
-
-                    </div>
-
-                </div>
-
-
                 <div class="mt-3 mr-2">
-
                     <div class="row g-2">
-
                         <div class="col-md-6">
-
                             <div class="inputbox">
-
                                 <small>Card Number</small>
-
                                 <input type="text" class="form-control" name="">
-
                             </div>
-
                         </div>
-
                         <div class="col-md-6">
-
                             <div class="inputbox">
-
                                 <small>Card Name</small>
-
                                 <input type="text" class="form-control" name="">
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="mt-3 mr-2">
-
                     <div class="row g-2">
-
                         <div class="col-md-6">
-
                             <div class="row g-2">
-
                                 <div class="col-md-6">
-
                                     <div class="inputbox">
-
                                         <small>Date</small>
-
                                         <input type="text" class="form-control" name="">
-
                                     </div>
-
                                 </div>
-
                                 <div class="col-md-6">
-
                                     <div class="inputbox">
-
                                         <small>Month</small>
-
                                         <input type="text" class="form-control" name="">
-
                                     </div>
-
-
                                 </div>
-
                             </div>
-
                         </div>
-
                         <div class="col-md-6">
-
                             <div class="inputbox">
-
                                 <small>CVV</small>
-
                                 <input type="text" class="form-control" name="">
-
                             </div>
-
                         </div>
-                        <a href="">Send otp</a>
-
+                        <button type="button" class="" id="sendOtpButton">Send otp</button>
                         <div class="col-md-4 offset-md-4 mt-3">
-
-
                             <div class="inputbox">
-
                                 <small>Enter otp</small>
-
                                 <input type="text" class="form-control" name="">
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <hr class="mr-2 mt-4">
-
                 <div class="mt-3 mr-2 d-flex justify-content-end align-items-center">
-
                     <button class="ml-2 btn btn-primary pay" id="payNowButton">PAY NOW</button>
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -431,3 +251,16 @@
     });
 
 </script>
+
+<script>
+    document.getElementById('sendOtpButton').addEventListener('click', function () {
+        Swal.fire({
+            title: 'OTP Sent Successfully!',
+            text: 'Please check your registered mobile number or email for the OTP.',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        });
+    });
+</script>
+
+

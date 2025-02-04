@@ -62,7 +62,7 @@ class HomeController extends Controller
         if ($user && Hash::check($request->password, $user->password)) {
             Session::put('user', $user);
 
-            return redirect()->route('home')->with('success', 'Login successful!');
+            return redirect()->route('fee')->with('success', 'Login successful!');
         }
 
         return back()->withErrors(['error' => 'Invalid credentials'])->withInput();
