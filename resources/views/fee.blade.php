@@ -323,7 +323,13 @@
                 </div>
                 <div class="mt-3 mr-2">
                     <div class="row g-2">
-                        <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="inputbox">
+                                <small><b>Account Holder Name : </b></small>
+                                <p>Jagran Lakecity University</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="inputbox">
                                 <small><b>Account Holder Name : </b></small>
                                 <p>Jagran Lakecity University</p>
@@ -332,16 +338,13 @@
                         <div class="col-md-6">
                             <div class="inputbox">
                                 <small><b>Account No. : </b></small>
-                                <p>3271192532
-
-</p>
+                                <p>3271192532</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="inputbox">
                                 <small><b>IFSC Code : </b></small>
-                                <p>CBIN0282036
-</p>
+                                <p>CBIN0282036</p>
                             </div>
                         </div>
                     </div>
@@ -394,6 +397,7 @@
             });
         }, 3000);
     });
+
 </script>
 
 <script>
@@ -427,4 +431,5 @@
             });
         }, 60000);
     });
+
 </script>
